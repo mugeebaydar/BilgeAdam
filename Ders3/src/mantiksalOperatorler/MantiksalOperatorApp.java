@@ -1,4 +1,4 @@
-package MantiksalOperatorler;
+package mantiksalOperatorler;
 
 public class MantiksalOperatorApp {
     public static void main(String[] args) {
