@@ -1,3 +1,5 @@
+package diziler;
+
 public class DiziForeach {
 
     public static void main(String[] args) {

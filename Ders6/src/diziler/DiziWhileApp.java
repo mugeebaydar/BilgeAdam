@@ -1,3 +1,5 @@
+package diziler;
+
 public class DiziWhileApp {
 
     public static void main(String[] args) {
