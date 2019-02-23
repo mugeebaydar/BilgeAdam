@@ -29,6 +29,11 @@ public class Dikdortgen {
         //en=6;
     }
 
+    public Dikdortgen(int uzunlugu, int en){
+        this.uzunlugu=uzunlugu;
+        this.en=en; //parametreden gelen ve classtan gelenleri this ile ayırt etme. this kullanılmak zorunda!!
+    }
+
     public void alanHesapla(){
         this.alan=this.en*this.uzunlugu;
         System.out.println("Dikdörtgenimin alanı: "+this.alan);
