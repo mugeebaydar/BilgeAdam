@@ -4,6 +4,14 @@ public class Dikdortgen {
     private double en;
     private double uzunlugu;
 
+    protected  void cevreHesaplama(){
+
+    }
+
+    void alanHesaplama(){ //erişim belirteci yazmadan da olur default erişim belirteci belirler. aynı paketten erişim olur
+
+    }
+
 
     public double getEn(){ //get değer alma
         return this.en;

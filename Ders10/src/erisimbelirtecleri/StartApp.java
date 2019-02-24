@@ -13,5 +13,7 @@ public class StartApp {
         System.out.println(dikdortgen.getUzunlugu());
 
         System.out.println(dikdortgen.toString());
+        dikdortgen.cevreHesaplama(); //aynı paketten erişim protected
+        dikdortgen.alanHesaplama(); //aynı paketten erişim default erişi belirteci
     }
 }
