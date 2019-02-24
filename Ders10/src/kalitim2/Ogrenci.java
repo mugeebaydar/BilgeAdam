@@ -10,7 +10,6 @@ public class Ogrenci extends Kisi{ //extends ile kalitim yapilir
         super("ramazan","karagoz",27); //super keywordü ile üst sınıfa değerler gönderebiliriz.
         super.setAd("fdsfg");
         super.setYas(12); //ekranda bu değerler yazar. en son esane edilen değeri baz alır java!
-
     }
     public long getOkulNumarasi(){
         return okulNumarasi;
