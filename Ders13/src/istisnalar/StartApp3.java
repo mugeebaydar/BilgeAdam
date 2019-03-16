@@ -31,5 +31,6 @@ public class StartApp3 {
             throw istisna; //throwdan sonra return kullanılmaz. ex fırlatır ve return döndürür bu yüzdne kullanılmaz
         }
         return yas;
+
     }
 }

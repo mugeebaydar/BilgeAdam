@@ -4,7 +4,7 @@ import ogrencibilgisistemi.dersler.Ders;
 
 import java.util.ArrayList;
 
-public class Ogrenci extends Kisi {
+public class Ogrenci extends  Kisi{
     private Long okulNumarasi;
     private Double notOrtalamasi;
     private Integer dersSayisi;

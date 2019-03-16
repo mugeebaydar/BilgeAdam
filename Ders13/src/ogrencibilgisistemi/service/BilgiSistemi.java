@@ -6,7 +6,6 @@ import ogrencibilgisistemi.domain.Ogrenci;
 import java.util.ArrayList;
 
 public class BilgiSistemi implements BilgiSistemiArayuz {
-
     private ArrayList<Ogrenci> ogrenciListesi;
     private ArrayList<Ders> dersListesi;
 

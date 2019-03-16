@@ -57,11 +57,5 @@ public class StartApp {
         bilgiSistemi.dersListesiYaz(dersListesi);
 
 
-
-
-
-
-
-
     }
 }

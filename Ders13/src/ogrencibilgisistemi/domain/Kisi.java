@@ -1,7 +1,6 @@
 package ogrencibilgisistemi.domain;
 
 public abstract class Kisi {
-
     private String ad;
     private String soyad;
     private String dogumTarihi;
@@ -50,4 +49,3 @@ public abstract class Kisi {
                 '}';
     }
 }
-

@@ -6,7 +6,6 @@ import ogrencibilgisistemi.domain.Ogrenci;
 import java.util.ArrayList;
 
 public interface BaseBilgiSistemiArayuz {
-
     ArrayList<Ogrenci> ogrenciListesiGetir();
 
     ArrayList<Ders> dersListesiGetir();

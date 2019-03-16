@@ -21,7 +21,7 @@ public abstract class Ders {
         this.puan=puan;
     }
     public Double getPuan(){
-       return this.puan=puan;
+        return this.puan=puan;
     }
 
     @Override

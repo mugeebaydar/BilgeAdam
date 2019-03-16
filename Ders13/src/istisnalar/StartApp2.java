@@ -8,7 +8,7 @@ public class StartApp2 {
         dizi[2]=7;
 
         try{
-           diziElemani(dizi);
+            diziElemani(dizi);
         }catch (ArrayIndexOutOfBoundsException exception){
             System.out.println("Dizi elemanını yanlış yerde arıyorsun.");
         }
@@ -16,5 +16,6 @@ public class StartApp2 {
     public static void diziElemani(int [] dizi){
         System.out.println(dizi[3]); //exception nesne oluşturulur ve bu satırda try-catch bloğu var mı diye bakar. yoksa
         //bir üst metoda gider try-catch bloğu arar. varsa ekrana catch kısmını basar
+
     }
 }

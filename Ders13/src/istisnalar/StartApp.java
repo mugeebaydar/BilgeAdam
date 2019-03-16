@@ -4,10 +4,8 @@ Uygulama çalışma esnasında beklenmedik hatalar alınabilir, bunları try-cat
 
 try-catch,throw,throws,finally,exception sınıfları
  */
-
 public class StartApp {
     public static void main(String[] args) {
-
         int [] dizi=new int[3];
         dizi[0]=3;
         dizi[1]=5;
