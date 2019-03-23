@@ -37,7 +37,7 @@ public class MapArabirimi {
         sinifDuzeyleri.put("2", ikinciSinifListesi);
 
         System.out.println("1.sınıf listesi");
-        for (String ogrenci : sinifDuzeyleri.get("1.sınıf")) {
+        for (String ogrenci : sinifDuzeyleri.get("1.sınıf")) {//!!!
             System.out.println(ogrenci);
         }
 
