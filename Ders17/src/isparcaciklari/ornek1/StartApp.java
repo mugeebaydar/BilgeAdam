@@ -2,7 +2,7 @@ package isparcaciklari.ornek1;
 
 public class StartApp {
     public static void main(String[] args) {
-        //threadlar asenkron çalışır
+        //threadlar senkron çalışır
         CharYaz charYaz = new CharYaz('a', 20);
         SayiYaz sayiYaz = new SayiYaz(1, 20);
 
