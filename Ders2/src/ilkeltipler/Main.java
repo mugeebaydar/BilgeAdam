@@ -3,7 +3,6 @@ package ilkeltipler;
 public class Main {
 
     public static void main (String [] args){
-
         int a=5;
         System.out.println("Bu bir integer değer: "+a);
         Integer b=5;
