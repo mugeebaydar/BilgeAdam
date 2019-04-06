@@ -8,7 +8,6 @@ public class Dikdortgen {
     * O sınıfın özellikleridir (properties)
     * */
 
-
     public double uzunlugu;
     public double en;
     public double cevre;
