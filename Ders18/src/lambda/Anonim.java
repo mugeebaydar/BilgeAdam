@@ -7,7 +7,6 @@ public class Anonim implements AnonimFonksiyon {
         int sonuc=anonim.hesapla(3,2);
         System.out.println("Sonuc: "+sonuc);
     }
-
     @Override
     public int hesapla(int x, int y) {
         return x+y;
