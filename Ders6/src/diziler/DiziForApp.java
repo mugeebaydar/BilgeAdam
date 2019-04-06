@@ -15,6 +15,5 @@ public class DiziForApp {
             System.out.println("Dizinin "+i+". indisinin değeri "+dizi[i]);
         }
 
-
     }
 }
