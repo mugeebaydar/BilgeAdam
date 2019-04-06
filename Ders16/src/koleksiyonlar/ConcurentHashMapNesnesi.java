@@ -17,7 +17,6 @@ public class ConcurentHashMapNesnesi {
         List<String> ikinciSinifList = new ArrayList<>();
         ikinciSinifList.add("Can");
         ikinciSinifList.add("Ahmet");
-
         ConcurrentHashMap<String, List> sinifDuzeyleri = new ConcurrentHashMap<>();
         sinifDuzeyleri.put("1.sınıf", birinciSinifList);
         sinifDuzeyleri.put("2.sınıf", ikinciSinifList);
