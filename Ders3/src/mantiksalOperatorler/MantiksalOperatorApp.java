@@ -28,7 +28,6 @@ public class MantiksalOperatorApp {
          */
 
         boolean x=true, y=false,z=true, t=false,sonuc;
-
         sonuc= x&&z;
         System.out.println("X ve Z and (&&) ile karşılastırılması: "+sonuc);
         sonuc= x&&y;
