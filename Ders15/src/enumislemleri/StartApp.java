@@ -9,7 +9,6 @@ public class StartApp  {
         for(HaftaninGunleri gun:HaftaninGunleri.values()){
             System.out.println(gun);
         }
-
         System.out.println(HaftaninGunleri.PAZARTESI.getValue()+ " haftanın "+HaftaninGunleri.PAZARTESI.getKey()+". günüdür.");
         System.out.println("");
         System.out.println("Haftanın günleri");
