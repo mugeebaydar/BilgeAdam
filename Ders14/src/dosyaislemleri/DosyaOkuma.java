@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class DosyaOkuma {
     public static void main(String[] args) {
-
         File file = new File("C:\\DosyaIslemleri\\deneme.txt");
         if (file.exists()) {
 
