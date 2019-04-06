@@ -27,6 +27,5 @@ public class IkiBoyutluDiziApp {
             }
             System.out.println();
         }
-
     }
 }
