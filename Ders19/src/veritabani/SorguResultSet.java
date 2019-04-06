@@ -25,7 +25,6 @@ public class SorguResultSet {
                         + resultSet.getDate("dogum_tarihi"));
             }
 
-
         } catch (SQLException e) {
             System.err.println("Bağlantı gerçekleştirilemedi.");
             e.printStackTrace();
