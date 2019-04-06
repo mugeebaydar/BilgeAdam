@@ -11,6 +11,7 @@ public class Araba implements Tasit, MotorluTasit {
         System.out.println("Araba hareketsiz durumda.");
     }
 
+
     @Override
     public void calistir() {
         System.out.println("Araba çalışıyor.");
