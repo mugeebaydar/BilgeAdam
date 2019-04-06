@@ -37,5 +37,4 @@ public class Dikdortgen extends Sekiller {
         this.boy=boy;
     }
 
-
 }
