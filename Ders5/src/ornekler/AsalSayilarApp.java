@@ -8,7 +8,6 @@ public class AsalSayilarApp {
             int sayi=0;
             String asalSayilar="";
 
-
             for(i=0; i<=100; i++){
                 int sayac=0;
 
