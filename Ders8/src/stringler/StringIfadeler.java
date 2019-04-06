@@ -15,7 +15,6 @@ public class StringIfadeler {
         if(jv ==a){ //stack ve heap kavramlarıyla karşılaştırma
             System.out.println("eşit");
         }
-
         //String kullanırken equals kullanmak önemli!!
         if(jv.equals(a)){ //equals new ile tanımlandığı zamanki karşılaştırma için kullanılır.
             System.out.println("Equals ile eşittir.");
