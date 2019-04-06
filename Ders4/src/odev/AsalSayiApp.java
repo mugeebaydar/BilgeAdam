@@ -40,7 +40,6 @@ public class AsalSayiApp {
 
         System.out.println("Güle güle :)");
         */
-
         Scanner scanner=new Scanner(System.in);
         System.out.print("Bir sayı giriniz: ");
         int sayi1=scanner.nextInt();
