@@ -12,7 +12,6 @@ public class Dikdortgen {
 
     }
 
-
     public double getEn(){ //get değer alma
         return this.en;
     }
