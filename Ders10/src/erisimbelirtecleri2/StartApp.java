@@ -13,4 +13,5 @@ public class StartApp {
         Dikdortgen dikdortgen=new Dikdortgen();
        dikdortgen.setEn(10);
     }
+
 }
