@@ -1,5 +1,5 @@
 package entity;
-
+//entitiy db'deki veriler
 import java.sql.Date;
 
 public class Personel {
@@ -69,5 +69,17 @@ public class Personel {
 
     public void setDogumTarihi(Date dogumTarihi) {
         this.dogumTarihi = dogumTarihi;
+    }
+
+    @Override
+    public String toString() {
+        return "Personel{" +
+                "id=" + id +
+                ", adi='" + adi + '\'' +
+                ", soyadi='" + soyadi + '\'' +
+                ", tcNo='" + tcNo + '\'' +
+                ", tel='" + tel + '\'' +
+                ", dogumTarihi=" + dogumTarihi +
+                '}';
     }
 }

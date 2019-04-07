@@ -46,7 +46,7 @@ public abstract class BaseDAO<T> {
         return resultSet;
     }
 
-    public void closeConneciton(){
+    public void closeConnection(){
         if(connection!=null){
             try {
                 connection.close();
@@ -62,7 +62,7 @@ public abstract class BaseDAO<T> {
     public abstract boolean guncelle(T t); //update()
     public abstract boolean sil(T t); //delete()
     public abstract List<T> listeGetir(); //findAll()
-    public abstract T findById(); //findById ID tarafından bul demek.id ile bul. Belirlir bir id'ye göre obje getiren method
+    public abstract T findById(Long id); //findById ID tarafından bul demek.id ile bul. Belirlir bir id'ye göre obje getiren method
 
 
 
