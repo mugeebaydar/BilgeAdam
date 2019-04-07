@@ -14,6 +14,9 @@ public class SorguResultSet {
             String sorgu = "SELECT * FROM public.\"Personel\"";
 
             Statement statement = conn.createStatement();
+            //fetchsize set edildiği zaman dataları verilen değer kadar getiriyor. 4 kayıt var ise kayıtları
+            //ikişer ikişer selecek çekerek getiriyor.
+            statement.setFetchSize(2);
 
             ResultSet resultSet = statement.executeQuery(sorgu); //resultset iterator gibi veri içinde gezer
             while (resultSet.next()) {
