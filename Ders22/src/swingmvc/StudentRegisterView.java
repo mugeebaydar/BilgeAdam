@@ -16,6 +16,7 @@ public class StudentRegisterView extends JFrame {
     private JTextArea addressField;
 
     private JButton saveButton;
+    private JButton listButton;
 
     private JPanel namePanel;
     private JPanel surnamePanel;
@@ -42,6 +43,7 @@ public class StudentRegisterView extends JFrame {
         this.addressField = new JTextArea(4, 20);
 
         this.saveButton = new JButton("Save");
+        this.listButton = new JButton("List");
 
         //Conteinerlarımızı oluşturuyoruz her birinin layout özelliğinizi set edip içerisinde oluşacak
         //bileşenlerimizi ekliyoruz
@@ -58,14 +60,15 @@ public class StudentRegisterView extends JFrame {
         this.phonePanel.add(phoneLabel);
         this.phonePanel.add(phoneField);
 
-        this.addressPanel=new JPanel();
+        this.addressPanel = new JPanel();
         this.addressPanel.setLayout(new BoxLayout(addressPanel, BoxLayout.LINE_AXIS)); //Line axis tek satırda sıralamak için
         this.addressPanel.add(addressLabel);
         this.addressPanel.add(addressField);
 
-        this.buttonPanel=new JPanel();
+        this.buttonPanel = new JPanel();
         this.buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.LINE_AXIS));
         this.buttonPanel.add(saveButton);
+        this.buttonPanel.add(listButton);
 
         //Containerlarımızı penceremize ekliyoruz
         this.add(namePanel);
@@ -110,5 +113,9 @@ public class StudentRegisterView extends JFrame {
 
     public JButton getSaveButton() {
         return saveButton;
+    }
+
+    public JButton getListButton() {
+        return listButton;
     }
 }
