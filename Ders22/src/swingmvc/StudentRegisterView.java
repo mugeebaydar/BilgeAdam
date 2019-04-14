@@ -18,11 +18,18 @@ public class StudentRegisterView extends JFrame {
     private JButton saveButton;
     private JButton listButton;
 
+    private JButton removeButton;
+
+    private JList studentJList;
+
+    private JScrollPane jScrollPane;
+
     private JPanel namePanel;
     private JPanel surnamePanel;
     private JPanel phonePanel;
     private JPanel addressPanel;
     private JPanel buttonPanel;
+    private JPanel listPanel;
 
     public StudentRegisterView() {
         this.setTitle("Student Register");
@@ -44,6 +51,7 @@ public class StudentRegisterView extends JFrame {
 
         this.saveButton = new JButton("Save");
         this.listButton = new JButton("List");
+        this.removeButton=new JButton("Remove");
 
         //Conteinerlarımızı oluşturuyoruz her birinin layout özelliğinizi set edip içerisinde oluşacak
         //bileşenlerimizi ekliyoruz
@@ -69,6 +77,16 @@ public class StudentRegisterView extends JFrame {
         this.buttonPanel.setLayout(new BoxLayout(buttonPanel, BoxLayout.LINE_AXIS));
         this.buttonPanel.add(saveButton);
         this.buttonPanel.add(listButton);
+        this.buttonPanel.add(removeButton);
+
+        //Datalarımızı listelemek için JList bileşenini oluşturuyoruz.
+        studentJList=new JList();
+        jScrollPane=new JScrollPane(); //JList bileşenime scroll özelliği eklemek için scrollPane oluşturduk.
+        jScrollPane.getViewport().add(studentJList);//JScrollPane bileşeninin viewPort methodu yardımıyla scroll özelliğini veriyoruz
+
+        listPanel=new JPanel();
+        listPanel.setLayout(new BoxLayout(listPanel,BoxLayout.LINE_AXIS));
+        listPanel.add(jScrollPane); //JListimizi görüntülemek için scrollpane bileşenini panele ekliyoruz.
 
         //Containerlarımızı penceremize ekliyoruz
         this.add(namePanel);
@@ -76,6 +94,8 @@ public class StudentRegisterView extends JFrame {
         this.add(phonePanel);
         this.add(addressPanel);
         this.add(buttonPanel);
+        this.add(listPanel);
+        this.pack(); //görünüm olarak en minimal hali gösterir.
 
     }
 
@@ -117,5 +137,13 @@ public class StudentRegisterView extends JFrame {
 
     public JButton getListButton() {
         return listButton;
+    }
+
+    public JList getStudentJList() {
+        return studentJList;
+    }
+
+    public JButton getRemoveButton() {
+        return removeButton;
     }
 }
